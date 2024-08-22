@@ -2,7 +2,7 @@ $nav-link-hover-font-weight: 500; // Bold
 
 // Modifications here
 @import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/_variables";
+@import "../node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors: (
     "altlight": #E8E9F3,
@@ -17,8 +17,6 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 // import bootstrap
 // Configuration
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -42,15 +40,43 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
+// Icons
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 // custom styling
 .nav-text {
     font-weight: normal;
-    transition: font-weight 0.1s ease-in-out;
+    transition: font-weight 0.2s ease-in-out;
 }
 
 .nav-item {
     &:hover .nav-text {
         font-weight: #{$nav-link-hover-font-weight};
     }
+}
+
+@font-face {
+    font-family: "Galey Rounded";
+    src: url("../assets/Galey font/Galey Rounded Extra Light.ttf");
+}
+
+@font-face {
+    font-family: "Galey Geo";
+    src: url("../assets/Galey font/Galey Semi Bold.ttf");
+}
+
+
+.background {
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.galey-geo {
+    font-family: "Galey Geo";
+}
+
+.galey-rounded {
+    font-family: "Galey Rounded";
 }
