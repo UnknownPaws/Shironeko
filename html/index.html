@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/main.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="/assets/shiroicon.png">
+    <title>Shironeko</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md sticky-top bg-altlight shadow-lg">
+        <div class="container-xxl">
+            <a href="#mission" class="navbar-brand text-secondary d-flex align-items-center">
+                <img src="/assets/shironekologo.png" alt="Shironeko logo" width="80" height="80">
+                <span class="fw-bold ms-3 pt-2 display-6 galey-rounded">Shironeko</span>
+            </a>
+
+            <!-- toggle button for mobile navigation -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+           <div id="main-nav" class="collapse navbar-collapse justify-content-end align-items-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#mission" class="nav-link text-navy"><span class="nav-text">Mission</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link me-2 text-navy"><span class="nav-text">About us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="btn btn-bluelight border border-navylight d-none d-md-inline-block">
+                            <span class="nav-text">Contact</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link d-md-none text-navy"><span class="nav-text">Contact</span></a>
+                    </li>
+                </ul>
+           </div> 
+        </div>
+    </nav>
+
+    <!-- Mission -->
+     <section id="mission">
+        <div class="container-fluid text-center d-flex align-items-center justify-content-center background">
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <p class="lead galey-geo display-2 text-light">Empowering new voices</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- About Us -->
+     <section id="about">
+        <div class="container-lg py-5 bg-altlight text-navy">
+            <div class="text-center">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-md-7 col-lg-6">
+                        <h2 class="h2 mb-4">About us</h2>
+                        <div class="card mx-3 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">We will help you reach audiences</h5>
+                                <p class="card-subtitle text-navylight fst-italic mb-4">...like never before <i class="bi bi-stars"></i></p>
+
+                                <p class="px-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi facilis voluptate incidunt magnam repellat odit temporibus eveniet perspiciatis vel aspernatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact -->
+     <section id="contact" class="bg-bluelight">
+        <div class="container-lg py-5">
+            <div class="text-center">
+                <h2 class="h2 text-navy"><i class="bi bi-envelope"></i>  Get in touch</h2>
+                <p class="lead text-navylight">Contact here for any queries</p>
+                <a href="mailto:shironeko.uk@pm.me" class="btn btn-large btn-outline-navy shadow">shironeko.uk@pm.me</a>
+            </div>
+        </div>
+     </section>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

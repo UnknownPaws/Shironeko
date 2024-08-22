@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Dependency directories
+bower_components/
+
+# Build directories
+dist/
+build/
+
+# .env file (for environment variables)
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+
+# NPM package lock
+package-lock.json
+
+# GitHub Pages specific files
+public/
+
+# Temporary files
+*.tmp
+*.swp

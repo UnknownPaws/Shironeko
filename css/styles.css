@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Galey Rounded";
+    src: url(/assets/Galey\ font/Galey\ Rounded\ Extra\ Light.ttf);
+}
+
+@font-face {
+    font-family: "Galey Geo";
+    src: url(/assets/Galey\ font/Galey\ Semi\ Bold.ttf);
+}
+
+
+.background {
+    height: 100vh;
+    background-image: url("/assets/background.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.galey-geo {
+    font-family: "Galey Geo";
+}
+
+.galey-rounded {
+    font-family: "Galey Rounded";
+}
