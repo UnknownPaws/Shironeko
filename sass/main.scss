@@ -66,11 +66,6 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 }
 
 @font-face {
-    font-family: "Baskerville";
-    src: url("../assets/Galey font/Baskervville-Regular.ttf");
-}
-
-@font-face {
     font-family: "Baskerville Italic";
     src: url("../assets/Galey font/Baskervville-Italic.ttf");
 }
