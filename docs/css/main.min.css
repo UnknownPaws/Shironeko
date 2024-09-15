@@ -16854,9 +16854,13 @@ progress {
   font-family: "Galey Geo";
   src: url("../assets/Galey font/Galey Semi Bold.ttf");
 }
+@font-face {
+  font-family: "Baskerville";
+  src: url("../assets/Galey font/Baskervville-Regular.ttf");
+}
 .background {
   height: 100vh;
-  background-image: url("../assets/background.png");
+  background-image: url("../assets/background.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -16867,4 +16871,8 @@ progress {
 
 .galey-rounded {
   font-family: "Galey Rounded";
+}
+
+.baskerville {
+  font-family: "Baskerville";
 }/*# sourceMappingURL=main.min.css.map */
